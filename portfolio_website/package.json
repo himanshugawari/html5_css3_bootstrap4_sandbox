@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/--recursive"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.14.1"
-  }
+  "license": "ISC"
 }
